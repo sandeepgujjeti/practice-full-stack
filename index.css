@@ -1,0 +1,25 @@
+.index{
+    background-color: cadetblue;
+    color: beige;
+    width: 200px;
+    height: 350px;
+}
+.index h1{
+    color: chocolate;
+    position : absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.index .blue{
+    background-color: blue;
+    width: 200px;
+    border-radius: 20%;
+    width: 200px;
+    height: 150px;
+    position: fixed;
+}
+.index .green{
+    background-color: green;
+    position: relative;
+    top: 200px;
+    bottom: 200px;
+}
