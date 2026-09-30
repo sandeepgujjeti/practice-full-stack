@@ -1,4 +1,3 @@
 ﻿# practice-full-stack
 
-
-This is a test edit!
+This repo stands as the practice place for my full stack web development.
