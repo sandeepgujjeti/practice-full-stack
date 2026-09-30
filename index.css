@@ -1,4 +1,16 @@
-.index{
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:  sans-serif;
+}
+
+* {
+    border: 1px solid;
+    background-color: hsl(10, 50%, 50%, 10%);
+}
+
+/* .index{
     background-color: cadetblue;
     color: beige;
     width: 200px;
@@ -22,4 +34,67 @@
     position: relative;
     top: 200px;
     bottom: 200px;
+} */
+
+body {
+    /* padding: 100px; */
+    --size: 2rem;
+}
+
+.green {
+    background-color: #0f04;
+}
+
+.blue {
+    background-color: #00f4;
+}
+
+.wrapper {
+    border: 1px solid;
+}
+
+.child {
+    /* width: 100px;
+    height: 100px; */
+    padding: 0;
+}
+
+.static {
+    position: static;
+    left: 100px;
+    right: 100px;
+}
+
+.absolute {
+    --side: 50px;
+    content: "";
+    position: absolute;
+    top: var(--side);
+    bottom: var(--side);
+    left: var(--side);
+    right: var(--side);
+}
+
+.relative {
+    /* --side: 50px; */
+    content: "";
+    position: relative;
+    top: var(--side);
+    bottom: var(--side);
+    left: var(--side);
+    right: var(--side);
+}
+
+.fixed {
+    position: fixed;
+    top: var(--size);
+    background-color: black;
+    color: white;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
